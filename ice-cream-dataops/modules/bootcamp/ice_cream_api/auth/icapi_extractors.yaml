@@ -1,5 +1,5 @@
-name : 'icapi_extractors'
-sourceId : '{{ icapi_extractors_source_id }}'
+name: icapi_extractors
+sourceId: {{icapi_extractors_source_id}}
 metadata:
   origin: 'cdf-project-templates'
 capabilities:
@@ -7,7 +7,7 @@ capabilities:
       actions: [READ]
       scope:
         idScope:
-          ids: [{{ icapi_ds_external_id }}]
+          ids: [{{icapi_ds_external_id}}]
   - extractionPipelinesAcl:
       actions: [READ]
       scope:

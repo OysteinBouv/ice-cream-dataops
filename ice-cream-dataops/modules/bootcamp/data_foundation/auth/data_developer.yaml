@@ -1,5 +1,5 @@
-name : 'data_developer'
-sourceId: '{{ data_developer_source_id }}'
+name: data_developer
+sourceId: '{{data_developer_source_id}}'
 metadata:
   origin: 'cdf-project-templates'
 capabilities:
